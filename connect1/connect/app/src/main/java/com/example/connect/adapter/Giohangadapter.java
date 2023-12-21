@@ -61,6 +61,8 @@ public class Giohangadapter extends RecyclerView.Adapter<Giohangadapter.MyViewHo
          gia = giohang.getSoluong() * giohang.getGiasp();
         holder.item_giohanggia2.setText(decimalFormat.format(gia)+".000Đ");
         holder.item_xoa.setText("Xóa sp"+giohang.getXoa());
+//        chucnangxoaspkhoigiohang
+        
         holder.item_xoa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
