@@ -63,6 +63,8 @@ public class ThanhtoanActivity extends AppCompatActivity {
          tong = getIntent().getLongExtra("tongtien",0);
         tongtien.setText(decimalFormat.format(tong)+".000Đ");
 
+//        chucnangthanhtoan
+        
         btnthanhtoan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
